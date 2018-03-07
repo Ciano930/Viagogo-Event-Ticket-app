@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="Cian O'Siorain">
+  <title>Viagogo Test page</title>
+</head>
+<body>
+
+  <h1>Local Event App</h1>
+  <h3>This app takes in your X and Y cordinate and returns the 5 closest events</h3>
+  <div id="Input Section">
+    X co-ordinate<br>
+    <input type="number" name="xCo-ord" id="x" value="0" max="10", min="-10"><br>
+    Y co-ordinate<br>
+    <input type="number" name="yCo-ord" id ="y" value="0" max="10", min="-10"><br>
+
+    <button id="submit_co-ords">Press to find 5 closest events</button>
+  </div>
+  <div id="Output Section">
+    <p id="output1"></p>
+    <p id="output2"></p>
+    <p id="output3"></p>
+    <p id="output4"></p>
+    <p id="output5"></p>
+    <button id="last_5">Last 5 events</button> <button id = "next_5">Next 5 Events</button>
+  </div>
+
+  <script src="testJS.js">
+</script>
+
+</body>
+</html>
